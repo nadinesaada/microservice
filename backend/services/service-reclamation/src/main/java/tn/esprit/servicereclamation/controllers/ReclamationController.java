@@ -15,11 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import tn.esprit.servicereclamation.entities.Reclamation;
 import tn.esprit.servicereclamation.services.IReclamationService;
 
-/**
- * This class represents the REST controller for managing reclamation resources.
- *
- * @author SALIM AMARA _ salim.amara@esprit.tn 2ALINFO3
- */
+
 @RestController
 @RequestMapping("/reclamations")
 public class ReclamationController {
