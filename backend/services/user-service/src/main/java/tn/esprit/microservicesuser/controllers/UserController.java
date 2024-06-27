@@ -25,7 +25,6 @@ public class UserController {
 
     /**
      * Returns a list of all users.
-     *
      * @return A list of all users.
      */
     @GetMapping("/list")
@@ -35,7 +34,6 @@ public class UserController {
 
     /**
      * Returns the user with the specified ID.
-     *
      * @param id The ID of the user to return.
      * @return The user with the specified ID, or null if no such user exists.
      */
@@ -46,7 +44,6 @@ public class UserController {
 
     /**
      * Creates a new user.
-     *
      * @param userEntity The user to create.
      * @return The newly created user.
      */
@@ -57,7 +54,6 @@ public class UserController {
 
     /**
      * Updates the user with the specified ID.
-     *
      * @param id         The ID of the user to update.
      * @param userEntity The new user data.
      * @return The updated user, or null if no such user exists.
@@ -69,7 +65,6 @@ public class UserController {
 
     /**
      * Deletes the user with the specified ID.
-     *
      * @param id The ID of the user to delete.
      */
     @DeleteMapping("/list/delete/{id}")
