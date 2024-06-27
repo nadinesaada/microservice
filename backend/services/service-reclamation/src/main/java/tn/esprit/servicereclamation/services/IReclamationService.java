@@ -4,10 +4,7 @@ import java.util.List;
 
 import tn.esprit.servicereclamation.entities.Reclamation;
 
-/**
- *
- * @author SALIM AMARA _ salim.amara@esprit.tn 2ALINFO3S
- */
+
 public interface IReclamationService {
 
 	
