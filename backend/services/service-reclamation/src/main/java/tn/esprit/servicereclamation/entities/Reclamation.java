@@ -17,11 +17,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import tn.esprit.servicereclamation.enums.ReclamationStatus;
 
-/**
- * This class represents a reclamation entity, with basic properties like title, description, status, date ...
- *
- * @author SALIM AMARA _ salim.amara@esprit.tn 2ALINFO3
- */
 @Entity
 @Table(name = "reclamation")
 @NoArgsConstructor
