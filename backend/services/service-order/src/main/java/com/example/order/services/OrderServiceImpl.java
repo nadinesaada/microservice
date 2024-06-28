@@ -10,11 +10,7 @@ import java.util.Optional;
 
 @Service
 public class OrderServiceImpl implements IOrderService {
-    /**
-     * The OrderRepository object used for accessing order data in the database.
-     * This object is automatically initialized and injected into the OrderController
-     * by Spring's dependency injection framework using the @Autowired annotation.
-     */
+   
     @Autowired
     private OrderRepository orderRepository;
     /**
