@@ -13,9 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/orders")
 public class orderController {
-    /**
-     * The service implementation for order management.
-     */
+    
     @Autowired
     private IOrderService orderService;
 
