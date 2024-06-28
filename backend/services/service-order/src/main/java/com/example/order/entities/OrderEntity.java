@@ -14,11 +14,6 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
-/**
- * This class represents an order entity, with basic properties like name, price, quantity,availability ...
- *
- * @author Mejda Sliman _ mejda.sliman@esprit.tn 2ALINFO3
- */
 @Entity
 @Table(name = "orders")
 @NoArgsConstructor
