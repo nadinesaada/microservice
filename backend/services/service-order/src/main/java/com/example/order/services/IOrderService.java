@@ -1,11 +1,7 @@
 package com.example.order.services;
 import com.example.order.entities.OrderEntity;
 import java.util.List;
-/**
- * Interface for the Order Service, which provides operations for managing order data.
- *
- * @author Mejda Sliman _ mejda.sliman@esprit.tn 2ALINFO3
- */
+
 public interface IOrderService {
 
     public List<OrderEntity> getAllOrders();
