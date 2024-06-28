@@ -7,19 +7,10 @@ import java.util.List;
  * @author Mejda Sliman _ mejda.sliman@esprit.tn 2ALINFO3
  */
 public interface IOrderService {
-    /**
-     * Retrieve a list of all orders in the system.
-     *
-     * @return A List of OrderEntity objects representing all orders in the system.
-     */
+
     public List<OrderEntity> getAllOrders();
 
-    /**
-     * Retrieve an order with the specified ID.
-     *
-     * @param id The ID of the order to retrieve.
-     * @return A OrderEntity object representing the order with the specified ID, or null if not found.
-     */
+    
     public OrderEntity getOrderById(Long id);
 
     /**
