@@ -46,13 +46,7 @@ public class orderController {
     public OrderEntity createOrder(@RequestBody OrderEntity orderEntity) {
         return orderService.createOrder(orderEntity);
     }
-    /**
-     * Updates the order with the specified ID.
-     *
-     * @param id         The ID of the order to update.
-     * @param orderEntity The new order data.
-     * @return The updated order, or null if no such order exists.
-     */
+
     @PutMapping("/list/update/{id}")
     public OrderEntity updateOrder(@PathVariable Long id, @RequestBody OrderEntity orderEntity) {
         return orderService.updateOrder(id, orderEntity);
