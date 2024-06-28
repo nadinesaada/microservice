@@ -7,11 +7,7 @@ import com.example.order.repositories.OrderRepository;
 
 import java.util.List;
 import java.util.Optional;
-/**
- * Implementation of the IOrderService interface that provides CRUD operations for order entities.
- *
- * @author Mejda Sliman _ mejda.sliman@esprit.tn 2ALINFO3
- */
+
 @Service
 public class OrderServiceImpl implements IOrderService {
     /**
