@@ -13,11 +13,7 @@ public class OrderServiceImpl implements IOrderService {
    
     @Autowired
     private OrderRepository orderRepository;
-    /**
-     * Retrieves a list of all orders in the database.
-     *
-     * @return A list of order entities.
-     */
+    
     @Override
     public List<OrderEntity> getAllOrders() {
         return orderRepository.findAll();
