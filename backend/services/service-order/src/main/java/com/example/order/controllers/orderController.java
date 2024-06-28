@@ -9,11 +9,7 @@ import com.example.order.services.OrderServiceImpl;
 
 import java.util.List;
 
-/**
- * This class represents the REST controller for managing order resources.
- *
- * @author Mejda Sliman _ mejda.sliman@esprit.tn 2ALINFO3
- */
+
 @RestController
 @RequestMapping("/orders")
 public class orderController {
